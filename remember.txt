@@ -1,0 +1,3 @@
+g++ primero.cpp -std=c++11 -Iinclude -Llib -lm `pkg-config --static --cflags --libs glfw3 glu gl` -o primero
+
+Linea para compilar un programa, recuerda esto
